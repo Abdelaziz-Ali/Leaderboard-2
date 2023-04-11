@@ -7,11 +7,12 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -65,35 +66,35 @@
 
 <!-- GETTING STARTED -->
 
-### Getting Started
+### Getting Started <a name="#getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="#prerequisites"></a>
 
 Node.js
 Visual Studio Code
 Browser
 
-### Setup
+### Setup <a name="#setup"></a>
 
 git clone https://github.com/Metaverse-Nabeel/Leaderboard.git
 
 cd Leaderboard
 
-### Install
+### Install <a name="#install"></a>
 
 npm install
 
-### Usage
+### Usage <a name="#usage"></a>
 
 npm run start
 
-### Run tests
+### Run tests <a name="#run-tests"></a>
 
 npm test
 
-### Deployment
+### Deployment <a name="#deployment"></a>
 
 npm run build
 
