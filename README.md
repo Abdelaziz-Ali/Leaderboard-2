@@ -6,14 +6,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -65,56 +63,42 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Live Demo: [Leaderboard Project]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+### Getting Started
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+Node.js
+Visual Studio Code
+Browser
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-cd my-folder
 git clone https://github.com/Metaverse-Nabeel/Leaderboard.git
+
+cd Leaderboard
 
 ### Install
 
-Install this project with:
-
-1.  Install WebHint: npm install --save-dev hint@7.x
-
-2.  Install StyleLint npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-
-3.  npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+npm install
 
 ### Usage
 
-To run the project, Open index.html in browser.
+npm run start
 
 ### Run tests
 
-To run tests, run the following command:
-
+npm test
 
 ### Deployment
 
-- Deployed at GitHub Pages: [Leaderboard0 Project]()
-
+npm run build
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
