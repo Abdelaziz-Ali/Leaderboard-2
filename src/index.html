@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/d7d1a0422d.js"
       crossorigin="anonymous"
@@ -11,6 +12,32 @@
     <title>Leaderboard</title>
   </head>
   <body>
-    <h1 class="titleApp">Leaderboard</h1>
+    <h1 class="appTitle">Leaderboard</h1>
+    <div class="appContent">
+      <section class="recentScores">
+        <div class="recentScoresTop">
+          <h2 class="recentScoreTitle">Recent Scores</h2>
+          <button class="refreshScoreBtn">Refresh</button>
+        </div>
+        <div class="recentScoresBottom">
+          <ul class="recentScoresList">
+            <li>Name: 100</li>
+            <li>Name: 10</li>
+            <li>Name: 40</li>
+            <li>Name: 50</li>
+            <li>Name: 90</li>
+            <li>Name: 45</li>
+          </ul>
+        </div>
+      </section>
+      <section class="addScore">
+        <h2 class="addScoreTitle">Add your score</h2>
+        <form action="#" class="addScoreForm">
+          <input type="text" placeholder="Your Name" />
+          <input type="number" placeholder="Your Score" />
+          <button class="submitForm">Submit</button>
+        </form>
+      </section>
+    </div>
   </body>
 </html>

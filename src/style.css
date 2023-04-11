@@ -8,5 +8,95 @@
 }
 
 body {
+  padding: 50px;
   background-color: #f1f2f5;
+}
+
+.appTitle {
+  font-size: 3rem;
+}
+
+.appContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.recentScores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.recentScoresTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.recentScoreTitle {
+  font-size: 2rem;
+}
+
+.recentScoresBottom {
+  width: 75%;
+  margin-top: 30px;
+}
+
+.recentScoresList {
+  border: 3px solid black;
+}
+
+.recentScoresList li {
+  list-style-type: none;
+}
+
+.recentScoresList li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.refreshScoreBtn {
+  width: auto;
+  padding: 5px 12px;
+  box-shadow: 5px 5px;
+  cursor: pointer;
+}
+
+.addScore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.addScoreTitle {
+  font-size: 2rem;
+}
+
+.addScoreForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.addScoreForm input {
+  padding: 2px;
+  border: 2px solid black;
+  width: 70%;
+}
+
+.addScoreForm button {
+  width: auto;
+  padding: 5px 10px;
+  box-shadow: 5px 5px;
+  cursor: pointer;
 }
