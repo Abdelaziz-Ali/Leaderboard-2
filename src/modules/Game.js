@@ -13,7 +13,6 @@ const Game = async () => {
     .then((data) => {
       const resultString = data.result;
       const code = resultString.split(' ')[3];
-      // console.log('I am code', code);
       localStorage.setItem('GameID', code);
     });
 };
