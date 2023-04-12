@@ -61,6 +61,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Basic page structure]**
+- **[Get Game Unique ID from API]**
+- **[Send Score to API]**
+- **[Receive Scores List From API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +107,7 @@ npm run build
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1  Nabeel**
+👤 **Nabeel Ahmed**
 - GitHub: [@Metaverse-Nabeel](https://github.com/Metaverse-Nabeel)
 - Twitter: [@Nabeel129](https://twitter.com/Nabeel129)
 - LinkedIn: [@Nabeel129](https://linkedin.com/in/Nabeel129)
