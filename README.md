@@ -64,6 +64,7 @@
 - **[Get Game Unique ID from API]**
 - **[Send Score to API]**
 - **[Receive Scores List From API]**
+- **[UI/UX of web application improved]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +119,7 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Making UI more interactive**
+- **Adding more features to the application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

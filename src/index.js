@@ -14,6 +14,8 @@ if (!localStorage.getItem('GameID')) {
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   await SaveScore({ player: player.value, points: points.value });
+  player.value = '';
+  points.value = '';
 });
 refreshBtn.addEventListener('click', async () => {
   await GetAllScores();
